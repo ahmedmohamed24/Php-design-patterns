@@ -1,5 +1,5 @@
 <?php
-namespace Tests\Unit;
+namespace Tests\Feature;
 
 use App\Structural\Decorator\Beverage;
 use App\Structural\Decorator\Condiments\Soy;
@@ -7,7 +7,7 @@ use App\Structural\Decorator\Condiments\Mocha;
 use App\Structural\Decorator\Drinks\HouseBlend;
 use PHPUnit\Framework\TestCase;
 
-class TestCashier extends TestCase
+class TestDecorator extends TestCase
 {
     /**@test*/
     public function test_cashier_can_make_order()
