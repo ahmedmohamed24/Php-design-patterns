@@ -1,0 +1,10 @@
+{
+    "db":{
+        "mysql":{
+            "uname":"user"
+        },
+        "sqlite":{
+            "file":"db.sqlite"
+        }
+    }
+}
