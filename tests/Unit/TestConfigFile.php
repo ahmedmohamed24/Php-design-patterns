@@ -17,6 +17,7 @@ class TestConfigFile extends TestCase
     {
         $config=new Config('{"db":{"test":"mysql"}}');
         $this->assertEquals("mysql", $config->get('db.test'));
+        $this->assertEquals("mysql", $config->get('db.test'));
     }
     /**@test*/
     public function test_it_reads_a_specific_attribute_from_default_config_file()

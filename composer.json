@@ -11,7 +11,13 @@
     ,"autoload-dev": {
         "psr-4": {
             "Tests\\":"tests/"
-        }
+        },
+        "files": [
+            "./app/Helpers.php"
+        ]
 
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
     }
 }
